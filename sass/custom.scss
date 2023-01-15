@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* make the customizations */
+$blue: #0f69b4 !default;
+$indigo: #6610f2 !default;
+$purple: #6633cc !default;
+$pink: #d63384 !default;
+$red: #e22c2c !default;
+$yellow: #ffa11b !default;
+$green: #2d717c !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+$marino: #001c41 !default;
+$navbar-brand-padding-y: 0;
+$nav-link-font-weight: 400;
+$font-family-sans-serif: "Roboto", sans-serif;
+$navbar-brand-margin-end: 30px;
+$enable-rounded: false;
+$enable-gradients: true;
+
+.user-top p {
+  margin: 0;
+  font-size: 13px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 355px;
+  padding: 0;
+  overflow: hidden;
+  background-color: $marino !important;
+}
+footer.footer li,
+footer.footer li a {
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-default-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-mobile-logo {
+    display: none;
+  }
+  .footer-default-logo {
+    display: block;
+  }
+}
+
+.btn-close {
+  background: transparent url(../btn-cerrar-blanco.svg) center/1em auto
+    no-repeat !important;
+}
+
+div.modal-header {
+  background-color: $blue !important;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-image: linear-gradient($blue, $marino);
+}
+
+nav.navbar-dark {
+  background-color: $marino !important;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.logo-fonasa {
+  top: 0;
+  width: 180px;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+}
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";
