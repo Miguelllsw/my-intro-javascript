@@ -11,9 +11,12 @@
     "react-bootstrap": "^2.7.0",
     "react-bootstrap-sweetalert": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "^5.0.1",
+    "react-web-qr-reader": "^1.0.4",
     "react-webcam": "^7.0.1",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
