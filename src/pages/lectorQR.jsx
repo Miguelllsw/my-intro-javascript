@@ -8,7 +8,7 @@ const videoConstraintsFrontal = {
   width: 350,
   height: 350,
   facingMode: "user",
-  frameRate: 60,
+  frameRate: 65,
 };
 const videoConstraintsTrasera = {
   width: 350,
