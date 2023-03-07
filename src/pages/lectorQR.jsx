@@ -37,7 +37,7 @@ function LectorQR() {
     setCasosAUGE([]);
   }
 
-  const [usuarios, setUsuarios] = useState([]);
+  const [ setUsuarios] = useState([]);
   const [captura, setCaptura] = useState("");
   const [loading, setLoading] = useState(false);
   const [porcentaje, setPorcentaje] = useState("");
